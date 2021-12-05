@@ -1,0 +1,27 @@
+{
+    "name": "sample/api",
+    "description": "Sample api server",
+    "keywords": ["sample"],
+    "homepage": "https://sample.ru",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "require": {
+        "yiisoft/yii2": "~2.0.14",
+        "workerman/workerman": "^4.0",
+        "yiisoft/yii2-apidoc": "~2.1.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.1.0",
+        "yiisoft/yii2-gii": "~2.2.0"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [{
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+    }]
+}

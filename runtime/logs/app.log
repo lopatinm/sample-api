@@ -1,0 +1,1225 @@
+2021-12-02 16:00:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:07 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460807.174
+    'REQUEST_TIME' => 1638460807
+]
+2021-12-02 16:00:08 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:08 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460808.148
+    'REQUEST_TIME' => 1638460808
+]
+2021-12-02 16:00:08 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:08 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460808.625
+    'REQUEST_TIME' => 1638460808
+]
+2021-12-02 16:00:08 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:08 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460808.869
+    'REQUEST_TIME' => 1638460808
+]
+2021-12-02 16:00:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:09 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460809.095
+    'REQUEST_TIME' => 1638460809
+]
+2021-12-02 16:00:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:09 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460809.317
+    'REQUEST_TIME' => 1638460809
+]
+2021-12-02 16:00:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:09 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460809.53
+    'REQUEST_TIME' => 1638460809
+]
+2021-12-02 16:00:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:09 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460809.749
+    'REQUEST_TIME' => 1638460809
+]
+2021-12-02 16:00:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:09 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460809.982
+    'REQUEST_TIME' => 1638460809
+]
+2021-12-02 16:00:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:10 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460810.198
+    'REQUEST_TIME' => 1638460810
+]
+2021-12-02 16:00:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:10 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460810.405
+    'REQUEST_TIME' => 1638460810
+]
+2021-12-02 16:00:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:10 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460810.63
+    'REQUEST_TIME' => 1638460810
+]
+2021-12-02 16:00:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:10 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460810.863
+    'REQUEST_TIME' => 1638460810
+]
+2021-12-02 16:00:11 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:11 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460811.112
+    'REQUEST_TIME' => 1638460811
+]
+2021-12-02 16:00:11 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:11 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460811.329
+    'REQUEST_TIME' => 1638460811
+]
+2021-12-02 16:00:12 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:12 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460812.92
+    'REQUEST_TIME' => 1638460812
+]
+2021-12-02 16:00:17 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Request.php:293
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#3 {main}
+2021-12-02 16:00:17 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49630'
+    'REDIRECT_URL' => '/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460817.969
+    'REQUEST_TIME' => 1638460817
+]
+2021-12-02 16:00:25 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /home/marat/Projects/sample/api/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Component.php(628): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Controller.php(216): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('index', Array)
+#8 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('v1/user/index', Array)
+#9 /home/marat/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/marat/Projects/sample/api/public_html/index.php(8): yii\base\Application->run()
+#11 {main}
+2021-12-02 16:00:25 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.sample.ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at api.sample.ru Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'api.sample.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/marat/Projects/sample/api/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/marat/Projects/sample/api/public_html/index.php'
+    'REMOTE_PORT' => '49660'
+    'REDIRECT_URL' => '/v1/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1638460825.453
+    'REQUEST_TIME' => 1638460825
+]
+2021-12-04 13:01:25 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class yii\gii\Module does not exist in /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php:508
+Stack trace:
+#0 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php(508): ReflectionClass->__construct()
+#1 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies()
+#2 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build()
+#3 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get()
+#4 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject()
+#5 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(321): yii\base\Module->getModule()
+#6 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(279): yii\base\Application->bootstrap()
+#7 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Application.php(125): yii\base\Application->init()
+#8 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\console\Application->init()
+#9 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(212): yii\base\BaseObject->__construct()
+#10 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Application.php(90): yii\base\Application->__construct()
+#11 /home/lopatinm/Projects/sample/api/yii.php(19): yii\console\Application->__construct()
+#12 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "yii\gii\Module". in /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php:510
+Stack trace:
+#0 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies()
+#1 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build()
+#2 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get()
+#3 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject()
+#4 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(321): yii\base\Module->getModule()
+#5 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(279): yii\base\Application->bootstrap()
+#6 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Application.php(125): yii\base\Application->init()
+#7 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\console\Application->init()
+#8 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(212): yii\base\BaseObject->__construct()
+#9 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Application.php(90): yii\base\Application->__construct()
+#10 /home/lopatinm/Projects/sample/api/yii.php(19): yii\console\Application->__construct()
+#11 {main}
+2021-12-04 13:01:25 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/Lopatinm-PC:@/tmp/.ICE-unix/1375,unix/Lopatinm-PC:/tmp/.ICE-unix/1375'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'LANGUAGE' => 'ru:en_US'
+    'MANDATORY_PATH' => '/usr/share/gconf/plasma.mandatory.path'
+    'JAVA_HOME' => '/usr/lib/jvm/jdk1.8.0_311'
+    'JRE_HOME' => '/usr/lib/jvm/jdk1.8.0_311/jre'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-W3BUcHe62KFF/agent.1225'
+    'DESKTOP_SESSION' => 'plasma'
+    'SSH_AGENT_PID' => '1297'
+    'XDG_SEAT' => 'seat0'
+    'PWD' => '/home/lopatinm/Projects/sample/api'
+    'XDG_SESSION_DESKTOP' => 'KDE'
+    'LOGNAME' => 'lopatinm'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/home/lopatinm/.Xauthority'
+    'DESKTOP_STARTUP_ID' => 'Lopatinm-PC;1638614568;504554;1389_TIME10940877'
+    'J2REDIR' => '/usr/lib/jvm/jdk1.8.0_311/jre/'
+    'HOME' => '/home/lopatinm'
+    'LANG' => 'ru_RU.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'KDE'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'KDE_SESSION_UID' => '1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'DEFAULTS_PATH' => '/usr/share/gconf/plasma.default.path'
+    'J2SDKDIR' => '/usr/lib/jvm/jdk1.8.0_311/'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'lopatinm'
+    'KDE_SESSION_VERSION' => '5'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'XDG_VTNR' => '1'
+    'XDG_SESSION_ID' => '1'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'QT_AUTO_SCREEN_SCALE_FACTOR' => '0'
+    'XCURSOR_THEME' => 'breeze_cursors'
+    'XDG_DATA_DIRS' => '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'KDE_FULL_SESSION' => 'true'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/jdk1.8.0_311/bin:/usr/lib/jvm/jdk1.8.0_311/bin:/usr/lib/jvm/jdk1.8.0_311/bin:/usr/lib/jvm/jdk1.8.0_311/bin'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    'OLDPWD' => '/opt/PhpStorm/bin'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii.php'
+    'SCRIPT_NAME' => 'yii.php'
+    'SCRIPT_FILENAME' => 'yii.php'
+    'PATH_TRANSLATED' => 'yii.php'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1638622885.8679
+    'REQUEST_TIME' => 1638622885
+    'argv' => [
+        0 => 'yii.php'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations/'
+    ]
+    'argc' => 3
+]
+2021-12-04 13:12:36 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class yii\gii\Module does not exist in /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php:508
+Stack trace:
+#0 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php(508): ReflectionClass->__construct()
+#1 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies()
+#2 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build()
+#3 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get()
+#4 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject()
+#5 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(321): yii\base\Module->getModule()
+#6 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(279): yii\base\Application->bootstrap()
+#7 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Application.php(125): yii\base\Application->init()
+#8 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\console\Application->init()
+#9 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(212): yii\base\BaseObject->__construct()
+#10 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Application.php(90): yii\base\Application->__construct()
+#11 /home/lopatinm/Projects/sample/api/yii(19): yii\console\Application->__construct()
+#12 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "yii\gii\Module". in /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php:510
+Stack trace:
+#0 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies()
+#1 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build()
+#2 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get()
+#3 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject()
+#4 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(321): yii\base\Module->getModule()
+#5 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(279): yii\base\Application->bootstrap()
+#6 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Application.php(125): yii\base\Application->init()
+#7 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\console\Application->init()
+#8 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(212): yii\base\BaseObject->__construct()
+#9 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Application.php(90): yii\base\Application->__construct()
+#10 /home/lopatinm/Projects/sample/api/yii(19): yii\console\Application->__construct()
+#11 {main}
+2021-12-04 13:12:36 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/Lopatinm-PC:@/tmp/.ICE-unix/1375,unix/Lopatinm-PC:/tmp/.ICE-unix/1375'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'LANGUAGE' => 'ru:en_US'
+    'MANDATORY_PATH' => '/usr/share/gconf/plasma.mandatory.path'
+    'JAVA_HOME' => '/usr/lib/jvm/jdk1.8.0_311'
+    'JRE_HOME' => '/usr/lib/jvm/jdk1.8.0_311/jre'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-W3BUcHe62KFF/agent.1225'
+    'DESKTOP_SESSION' => 'plasma'
+    'SSH_AGENT_PID' => '1297'
+    'XDG_SEAT' => 'seat0'
+    'PWD' => '/home/lopatinm/Projects/sample/api'
+    'XDG_SESSION_DESKTOP' => 'KDE'
+    'LOGNAME' => 'lopatinm'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/home/lopatinm/.Xauthority'
+    'DESKTOP_STARTUP_ID' => 'Lopatinm-PC;1638614568;504554;1389_TIME10940877'
+    'J2REDIR' => '/usr/lib/jvm/jdk1.8.0_311/jre/'
+    'HOME' => '/home/lopatinm'
+    'LANG' => 'ru_RU.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'KDE'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'KDE_SESSION_UID' => '1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'DEFAULTS_PATH' => '/usr/share/gconf/plasma.default.path'
+    'J2SDKDIR' => '/usr/lib/jvm/jdk1.8.0_311/'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'lopatinm'
+    'KDE_SESSION_VERSION' => '5'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'XDG_VTNR' => '1'
+    'XDG_SESSION_ID' => '1'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'QT_AUTO_SCREEN_SCALE_FACTOR' => '0'
+    'XCURSOR_THEME' => 'breeze_cursors'
+    'XDG_DATA_DIRS' => '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'KDE_FULL_SESSION' => 'true'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/jdk1.8.0_311/bin:/usr/lib/jvm/jdk1.8.0_311/bin:/usr/lib/jvm/jdk1.8.0_311/bin:/usr/lib/jvm/jdk1.8.0_311/bin'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    'OLDPWD' => '/opt/PhpStorm/bin'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1638623556.1422
+    'REQUEST_TIME' => 1638623556
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations/'
+    ]
+    'argc' => 3
+]
+2021-12-04 13:23:47 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1231 Variable 'sql_mode' can't be set to the value of 'NO_AUTO_CREATE_USER' in /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Command.php:1302
+Stack trace:
+#0 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Command.php(1302): PDOStatement->execute()
+#1 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Command.php(1102): yii\db\Command->internalExecute()
+#2 /home/lopatinm/Projects/sample/api/config/db.php(10): yii\db\Command->execute()
+#3 [internal function]: {closure}()
+#4 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Connection.php(747): yii\base\Component->trigger()
+#6 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Connection.php(639): yii\db\Connection->initConnection()
+#7 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Connection.php(1063): yii\db\Connection->open()
+#8 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Connection.php(1050): yii\db\Connection->getMasterPdo()
+#9 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#10 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#11 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#12 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#13 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#14 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#15 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#16 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema()
+#17 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(908): yii\console\controllers\MigrateController->getMigrationHistory()
+#18 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#19 [internal function]: yii\console\controllers\BaseMigrateController->actionUp()
+#20 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#21 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#22 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#23 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#24 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#25 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#26 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#27 /home/lopatinm/Projects/sample/api/yii(20): yii\base\Application->run()
+#28 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1231 Variable 'sql_mode' can't be set to the value of 'NO_AUTO_CREATE_USER'
+The SQL being executed was: SET sql_mode = 'STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'; in /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Schema.php:678
+Stack trace:
+#0 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Command.php(1307): yii\db\Schema->convertException()
+#1 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Command.php(1102): yii\db\Command->internalExecute()
+#2 /home/lopatinm/Projects/sample/api/config/db.php(10): yii\db\Command->execute()
+#3 [internal function]: {closure}()
+#4 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Connection.php(747): yii\base\Component->trigger()
+#6 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Connection.php(639): yii\db\Connection->initConnection()
+#7 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Connection.php(1063): yii\db\Connection->open()
+#8 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Connection.php(1050): yii\db\Connection->getMasterPdo()
+#9 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#10 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#11 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#12 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#13 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#14 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#15 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#16 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema()
+#17 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(908): yii\console\controllers\MigrateController->getMigrationHistory()
+#18 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#19 [internal function]: yii\console\controllers\BaseMigrateController->actionUp()
+#20 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#21 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#22 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#23 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#24 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#25 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#26 /home/lopatinm/Projects/sample/api/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#27 /home/lopatinm/Projects/sample/api/yii(20): yii\base\Application->run()
+#28 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1231
+    [2] => Variable 'sql_mode' can't be set to the value of 'NO_AUTO_CREATE_USER'
+)
+
+2021-12-04 13:23:47 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/Lopatinm-PC:@/tmp/.ICE-unix/1375,unix/Lopatinm-PC:/tmp/.ICE-unix/1375'
+    'QT_ACCESSIBILITY' => '1'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'LANGUAGE' => 'ru:en_US'
+    'MANDATORY_PATH' => '/usr/share/gconf/plasma.mandatory.path'
+    'JAVA_HOME' => '/usr/lib/jvm/jdk1.8.0_311'
+    'JRE_HOME' => '/usr/lib/jvm/jdk1.8.0_311/jre'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-W3BUcHe62KFF/agent.1225'
+    'DESKTOP_SESSION' => 'plasma'
+    'SSH_AGENT_PID' => '1297'
+    'XDG_SEAT' => 'seat0'
+    'PWD' => '/home/lopatinm/Projects/sample/api'
+    'XDG_SESSION_DESKTOP' => 'KDE'
+    'LOGNAME' => 'lopatinm'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/home/lopatinm/.Xauthority'
+    'DESKTOP_STARTUP_ID' => 'Lopatinm-PC;1638614568;504554;1389_TIME10940877'
+    'J2REDIR' => '/usr/lib/jvm/jdk1.8.0_311/jre/'
+    'HOME' => '/home/lopatinm'
+    'LANG' => 'ru_RU.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'KDE'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'KDE_SESSION_UID' => '1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'DEFAULTS_PATH' => '/usr/share/gconf/plasma.default.path'
+    'J2SDKDIR' => '/usr/lib/jvm/jdk1.8.0_311/'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'lopatinm'
+    'KDE_SESSION_VERSION' => '5'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'XDG_VTNR' => '1'
+    'XDG_SESSION_ID' => '1'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'QT_AUTO_SCREEN_SCALE_FACTOR' => '0'
+    'XCURSOR_THEME' => 'breeze_cursors'
+    'XDG_DATA_DIRS' => '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'KDE_FULL_SESSION' => 'true'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/jdk1.8.0_311/bin:/usr/lib/jvm/jdk1.8.0_311/bin:/usr/lib/jvm/jdk1.8.0_311/bin:/usr/lib/jvm/jdk1.8.0_311/bin'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    'OLDPWD' => '/opt/PhpStorm/bin'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1638624227.9765
+    'REQUEST_TIME' => 1638624227
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations/'
+    ]
+    'argc' => 3
+]

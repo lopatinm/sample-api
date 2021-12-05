@@ -1,0 +1,42 @@
+Array
+(
+    [0] => Array
+        (
+            [file] => 
+            [message] => broken link to \yii\filters\auth\HttpBearerAuth
+        )
+
+    [1] => Array
+        (
+            [file] => 
+            [message] => broken link to User::enableAutoLogin
+        )
+
+    [2] => Array
+        (
+            [file] => 
+            [message] => broken link to User::enableAutoLogin
+        )
+
+    [3] => Array
+        (
+            [line] => 25
+            [file] => modules/v1/models/User.php
+            [message] => Method tableName has no parent to inherit from in app\modules\v1\models\User.
+        )
+
+    [4] => Array
+        (
+            [line] => 33
+            [file] => modules/v1/models/User.php
+            [message] => Method rules has no parent to inherit from in app\modules\v1\models\User.
+        )
+
+    [5] => Array
+        (
+            [line] => 44
+            [file] => modules/v1/models/User.php
+            [message] => Method attributeLabels has no parent to inherit from in app\modules\v1\models\User.
+        )
+
+)

@@ -1,0 +1,122 @@
+Array
+(
+    [0] => Array
+        (
+            [line] => 5
+            [file] => modules/v1/Module.php
+            [message] => No docblock for element 'app\modules\v1\Module'
+        )
+
+    [1] => Array
+        (
+            [line] => 7
+            [file] => modules/v1/Module.php
+            [message] => No docblock for element '$controllerNamespace'
+        )
+
+    [2] => Array
+        (
+            [line] => 7
+            [file] => modules/v1/Module.php
+            [message] => No short description for element '$controllerNamespace'
+        )
+
+    [3] => Array
+        (
+            [line] => 8
+            [file] => modules/v1/Module.php
+            [message] => No docblock for element 'init'
+        )
+
+    [4] => Array
+        (
+            [line] => 21
+            [file] => modules/v1/controllers/UserController.php
+            [message] => No docblock for element 'app\modules\v1\controllers\UserController'
+        )
+
+    [5] => Array
+        (
+            [line] => 23
+            [file] => modules/v1/controllers/UserController.php
+            [message] => No docblock for element '$modelClass'
+        )
+
+    [6] => Array
+        (
+            [line] => 23
+            [file] => modules/v1/controllers/UserController.php
+            [message] => No short description for element '$modelClass'
+        )
+
+    [7] => Array
+        (
+            [line] => 25
+            [file] => modules/v1/controllers/UserController.php
+            [message] => No docblock for element 'behaviors'
+        )
+
+    [8] => Array
+        (
+            [line] => 38
+            [file] => modules/v1/controllers/UserController.php
+            [message] => No docblock for element 'actions'
+        )
+
+    [9] => Array
+        (
+            [line] => 44
+            [file] => modules/v1/controllers/UserController.php
+            [message] => No docblock for element 'actionIndex'
+        )
+
+    [10] => Array
+        (
+            [line] => 57
+            [file] => modules/v1/controllers/UserController.php
+            [message] => No docblock for element 'actionLogin'
+        )
+
+    [11] => Array
+        (
+            [line] => 91
+            [file] => modules/v1/controllers/UserController.php
+            [message] => No docblock for element 'actionRegistration'
+        )
+
+    [12] => Array
+        (
+            [line] => 127
+            [file] => modules/v1/models/User.php
+            [message] => No docblock for element 'issetUser'
+        )
+
+    [13] => Array
+        (
+            [line] => 137
+            [file] => modules/v1/models/User.php
+            [message] => No docblock for element 'findByUsername'
+        )
+
+    [14] => Array
+        (
+            [line] => 142
+            [file] => modules/v1/models/User.php
+            [message] => No docblock for element 'generatePassword'
+        )
+
+    [15] => Array
+        (
+            [line] => 155
+            [file] => modules/v1/models/User.php
+            [message] => No docblock for element 'trimPhone'
+        )
+
+    [16] => Array
+        (
+            [line] => 160
+            [file] => modules/v1/models/User.php
+            [message] => No docblock for element 'getRole'
+        )
+
+)
